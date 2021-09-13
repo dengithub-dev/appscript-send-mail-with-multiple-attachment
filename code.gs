@@ -1,5 +1,5 @@
-//attachment link - spreadsheet column value [https://drive.google.com/open?id=id1,https://drive.google.com/open?id=2]
-var attachment_list = [];
+  //attachment link - spreadsheet column value [https://drive.google.com/open?id=id1,https://drive.google.com/open?id=id2]
+  var attachment_list = [];
   var attachments_ = [];
   var attached_file = attachment_link.toString().split(","); //split the comma separated link 
   //replace the link, and get only the id using foreach to every data in array
